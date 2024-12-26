@@ -1,0 +1,4 @@
+address：
+D:\其他\文件-不便列出\\alladdresses-balance_NONE-start1-best.txt
+words：
+D:\其他\文件-不便列出\助记词标准单词库.txt
