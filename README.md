@@ -13,6 +13,22 @@
 
 6.把地址导入主用手机的区块链钱包形成观察钱包。
 
+# 绝密私钥生成及加密步骤(简化)：
+
+1.虚拟机Windows(或Linux)断网环境使用本代码（address_generate_common.py）生成大量助记词，挑选一个助记词以及address剪切至新建TXT后使用AES256加密为zip。
+
+2.新建PPT写入附加信息(包含address)并数字签名，把PPT和zip再次使用AES256加密为final.zip，导出PPT和final.zip至主Windows。先立即删除虚拟机Windows，再把final.zip和PPT上传至Google云盘。
+
+3.把PPT中的address导入主用手机的区块链钱包形成观察钱包。
+
+# 绝密私钥的解密步骤：
+
+1.新建Windows虚拟机，确保断网。
+
+2.把PPT和zip导入Windows虚拟机，直接解密zip：肉眼查看助记词，立即删除Windows虚拟机。
+
+# 几种私钥的区别：
+
 绝密私钥的生成：区块链交易均采用观察钱包的数字签名形式，禁止授权。
 
 非绝密私钥的生成与上面不同而是一步到位，可以进行各项操作，不过只允许存储小额资产。
