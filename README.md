@@ -19,7 +19,7 @@
 
 2.新建PPT写入附加信息(包含address)并数字签名，把PPT和zip再次使用AES256加密为final.zip，导出PPT和final.zip至主Windows。先立即删除虚拟机Windows，再把final.zip和PPT上传至Google云盘。
 
-3.把PPT中的address导入主用手机的区块链钱包形成观察钱包。
+3.把PPT中的address导入主用手机的以太坊系列区块链钱包形成观察钱包。
 
 # 绝密私钥的解密步骤：
 
